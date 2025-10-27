@@ -1,0 +1,10 @@
+.git
+.gitignore
+.dockerignore
+Dockerfile
+.env
+venv/
+env/
+__pycache__/
+tests/
+mlruns/

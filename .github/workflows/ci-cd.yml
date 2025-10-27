@@ -42,6 +42,7 @@ jobs:
         MLFLOW_TRACKING_URI: ${{ secrets.MLFLOW_TRACKING_URI }}
         MLFLOW_EXPERIMENT_NAME: ${{ secrets.MLFLOW_EXPERIMENT_NAME }}
       run: |
+        python mlflow_tracking.py
         mlflow log_param "test_run" "passed"
         mlflow log_metric "test_passed" 1
 

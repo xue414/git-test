@@ -34,7 +34,7 @@ jobs:
     
     - name: Test with pytest
       run: |
-        pytest --cov=app tests/
+        pytest --cov app tests/
     
     - name: MLflow tracking
       if: github.event_name == 'push' && github.ref == 'refs/heads/main'

@@ -6,4 +6,4 @@ flake8==6.1.0
 black==23.12.1
 mlflow==2.9.2
 dagshub==0.2.21
-psycopg2-binary==2.9.9  # PostgreSQL支持
+psycopg2-binary==2.9.9 
